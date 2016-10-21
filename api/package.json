@@ -1,0 +1,44 @@
+{
+  "name": "vulnerability-scanner-api",
+  "version": "0.0.1",
+  "description": "Vulnerability Scanner NodeJS API",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "./bin/test.sh",
+    "start": "node ./app/server.js | bistre",
+    "watch": "nodemon ./app/server.js | bistre",
+    "postinstall": "ln -s ../app node_modules/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cabloo/vulnerability-scanner.git"
+  },
+  "keywords": [
+    "Vulnerability",
+    "Scanner",
+    "NodeJS",
+    "API"
+  ],
+  "dependencies": {
+    "bistre": "1.0.1",
+    "body-parser": "^1.15.1",
+    "bole": "2.0.0",
+    "express": "4.13.4",
+    "lodash": "^4.12.0",
+    "q": "^1.4.1",
+    "electrolyte": "~0.3.0"
+  },
+  "devDependencies": {
+    "should": "^8.3.1",
+    "standard": "6.0.8",
+    "supertest": "^1.2.0",
+    "tap-dot": "1.0.5",
+    "tape": "4.5.1",
+    "methods": "~1.1.2"
+  },
+  "author": "cabloo",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/cabloo/vulnerability-scanner/issues"
+  }
+}
