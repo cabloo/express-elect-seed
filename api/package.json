@@ -7,7 +7,7 @@
     "test": "./bin/test.sh",
     "start": "node ./app/server.js | bistre",
     "watch": "nodemon ./app/server.js | bistre",
-    "postinstall": "ln -s ../app node_modules/app"
+    "postinstall": "ln -s ../app node_modules/app; cp app/config.example.js app/config.js"
   },
   "repository": {
     "type": "git",
