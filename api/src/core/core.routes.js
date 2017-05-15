@@ -1,7 +1,7 @@
 exports = module.exports = loadRoutes;
 exports['@require'] = [
   // Global routing middleware
-  'app/core/middleware',
+  'src/core/middleware',
 
   // Load the routes
 ];

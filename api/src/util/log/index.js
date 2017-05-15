@@ -1,5 +1,5 @@
 exports = module.exports = logFactory;
-exports['@require'] = ['app/util/log/log.bole'];
+exports['@require'] = ['src/util/log/log.bole'];
 function logFactory(logger) {
   return {
     info: info,

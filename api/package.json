@@ -1,23 +1,18 @@
 {
-  "name": "vulnerability-scanner-api",
+  "name": "express-elect-seed",
   "version": "0.0.1",
-  "description": "Vulnerability Scanner NodeJS API",
-  "main": "app/index.js",
+  "description": "ExpressJS API",
+  "main": "src/index.js",
   "scripts": {
     "test": "./bin/test.sh",
-    "start": "node ./app/server.js | bistre",
-    "watch": "nodemon ./app/server.js | bistre",
-    "postinstall": "ln -s ../app node_modules/app; cp app/config.example.js app/config.js"
+    "start": "node ./src/server.js | bistre",
+    "watch": "nodemon ./src/server.js | bistre"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:cabloo/vulnerability-scanner.git"
+    "url": "git@github.com:cabloo/express-elect-seed.git"
   },
   "keywords": [
-    "Vulnerability",
-    "Scanner",
-    "NodeJS",
-    "API"
   ],
   "dependencies": {
     "bistre": "1.0.1",
@@ -39,6 +34,6 @@
   "author": "cabloo",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/cabloo/vulnerability-scanner/issues"
+    "url": "https://github.com/cabloo/express-elect-seed/issues"
   }
 }

@@ -1,4 +1,4 @@
 // Initiation of express App
 
-exports = module.exports = require('app/core');
+exports = module.exports = require('src/core');
 exports['@literal'] = true;

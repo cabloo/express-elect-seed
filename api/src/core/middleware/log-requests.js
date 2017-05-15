@@ -1,5 +1,5 @@
 exports = module.exports = logRequestsFactory;
-exports['@require'] = ['app/util/log'];
+exports['@require'] = ['src/util/log'];
 
 function logRequestsFactory(log) {
   return logRequestsMiddleware;

@@ -9,8 +9,8 @@ var IoC = require('electrolyte');
 var express = require('express');
 var app = express();
 
-require('app/core/core.ioc.js')(IoC, app);
+require('src/core/core.ioc.js')(IoC, app);
 
-IoC.create('app/core/core.loader.js');
+IoC.create('src/core/core.loader.js');
 
 module.exports = app;

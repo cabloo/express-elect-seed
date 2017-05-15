@@ -1,9 +1,9 @@
 exports = module.exports = loadMiddleware;
 exports['@require'] = [
   'app',
-  'app/core/middleware/body-parser',
-  'app/core/middleware/log-requests',
-  'app/core/middleware/response-macros',
+  'src/core/middleware/body-parser',
+  'src/core/middleware/log-requests',
+  'src/core/middleware/response-macros',
 ];
 
 function loadMiddleware (app) {
