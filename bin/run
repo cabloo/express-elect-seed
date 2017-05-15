@@ -2,7 +2,7 @@
 
 CONT=express-elect-seed
 NAME=express-elect-seed
-PORT=4001
+PORT=3000
 docker stop $NAME
 docker rm $NAME
 docker run -dt \
