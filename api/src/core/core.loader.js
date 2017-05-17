@@ -8,6 +8,9 @@ exports['@require'] = [
 
   // Load API router.
   'src/core/core.routes',
+
+  // Load modules.
+  'src/example',
 ];
 
 function coreLoader() {}

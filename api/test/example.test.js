@@ -10,14 +10,14 @@ before(function (done) {
 
 describe('Example API', function () {
   it('should run some page', function (done) {
-    someApiFunction(done).expect(404);
+    someApiFunction(done).expect(200);
   });
 });
 
 function someApiFunction(done) {
   var data = {};
   return agent()
-    .post('/page')
+    .post('/example')
     .send(data)
     .end(function (err, res) {
       if (err) {
