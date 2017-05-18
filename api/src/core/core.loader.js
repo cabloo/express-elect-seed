@@ -11,6 +11,9 @@ exports['@require'] = [
 
   // Load modules.
   'src/example',
+
+  // Process any errors that occurred.
+  'src/errors',
 ];
 
 function coreLoader() {}
