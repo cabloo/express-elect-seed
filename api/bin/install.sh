@@ -2,6 +2,5 @@
 
 ./bin/node-setup.sh
 apt-get install -y nodejs
-cd api
 npm i
 ln -s ../src node_modules/src; cp src/config.example.js src/config.js
